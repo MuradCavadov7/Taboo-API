@@ -1,29 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\",
+  "WorkspaceRootPath": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\services\\implements\\languageservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\i novbe\\desktop\\tab\\taboo-api\\taboo\\taboo\\services\\implements\\languageservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\services\\implements\\languageservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\services\\abstracts\\ilanguageservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\services\\abstracts\\ilanguageservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\controllers\\languagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\controllers\\languagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\dtos\\languages\\languageupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\dtos\\languages\\languageupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\profiles\\languageprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\i novbe\\desktop\\tab\\taboo-api\\taboo\\taboo\\profiles\\languageprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\profiles\\languageprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\i novbe\\desktop\\tab\\taboo-api\\taboo\\taboo\\dtos\\languages\\languageupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\dtos\\languages\\languageupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\i novbe\\desktop\\tab\\taboo-api\\taboo\\taboo\\validators\\language\\languageupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\validators\\language\\languageupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\i novbe\\desktop\\tab\\taboo-api\\taboo\\taboo\\exceptions\\ibaseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\exceptions\\ibaseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\i novbe\\desktop\\tab\\taboo-api\\taboo\\taboo\\exceptions\\languageexception\\languageexistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\exceptions\\languageexception\\languageexistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\i novbe\\desktop\\tab\\taboo-api\\taboo\\taboo\\services\\abstracts\\ilanguageservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\services\\abstracts\\ilanguageservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\i novbe\\desktop\\tab\\taboo-api\\taboo\\taboo\\controllers\\languagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\controllers\\languagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\i novbe\\desktop\\tab\\taboo-api\\taboo\\taboo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,28 +46,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LanguageExistException.cs",
+              "DocumentMoniker": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\Taboo\\Exceptions\\LanguageException\\LanguageExistException.cs",
+              "RelativeDocumentMoniker": "Taboo\\Exceptions\\LanguageException\\LanguageExistException.cs",
+              "ToolTip": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\Taboo\\Exceptions\\LanguageException\\LanguageExistException.cs*",
+              "RelativeToolTip": "Taboo\\Exceptions\\LanguageException\\LanguageExistException.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T08:16:37.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBaseException.cs",
+              "DocumentMoniker": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\Taboo\\Exceptions\\IBaseException.cs",
+              "RelativeDocumentMoniker": "Taboo\\Exceptions\\IBaseException.cs",
+              "ToolTip": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\Taboo\\Exceptions\\IBaseException.cs*",
+              "RelativeToolTip": "Taboo\\Exceptions\\IBaseException.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T08:12:32.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "LanguageUpdateDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\Taboo\\Validators\\Language\\LanguageUpdateDtoValidator.cs",
+              "RelativeDocumentMoniker": "Taboo\\Validators\\Language\\LanguageUpdateDtoValidator.cs",
+              "ToolTip": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\Taboo\\Validators\\Language\\LanguageUpdateDtoValidator.cs*",
+              "RelativeToolTip": "Taboo\\Validators\\Language\\LanguageUpdateDtoValidator.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T08:04:04.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LanguageUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\DTOs\\Languages\\LanguageUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\Taboo\\DTOs\\Languages\\LanguageUpdateDto.cs",
               "RelativeDocumentMoniker": "Taboo\\DTOs\\Languages\\LanguageUpdateDto.cs",
-              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\DTOs\\Languages\\LanguageUpdateDto.cs",
-              "RelativeToolTip": "Taboo\\DTOs\\Languages\\LanguageUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\Taboo\\DTOs\\Languages\\LanguageUpdateDto.cs*",
+              "RelativeToolTip": "Taboo\\DTOs\\Languages\\LanguageUpdateDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T17:19:00.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "LanguageProfile.cs",
-              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Profiles\\LanguageProfile.cs",
+              "DocumentMoniker": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\Taboo\\Profiles\\LanguageProfile.cs",
               "RelativeDocumentMoniker": "Taboo\\Profiles\\LanguageProfile.cs",
-              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Profiles\\LanguageProfile.cs",
+              "ToolTip": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\Taboo\\Profiles\\LanguageProfile.cs",
               "RelativeToolTip": "Taboo\\Profiles\\LanguageProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -66,22 +117,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "LanguageServices.cs",
-              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Services\\Implements\\LanguageServices.cs",
+              "DocumentMoniker": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\Taboo\\Services\\Implements\\LanguageServices.cs",
               "RelativeDocumentMoniker": "Taboo\\Services\\Implements\\LanguageServices.cs",
-              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Services\\Implements\\LanguageServices.cs*",
+              "ToolTip": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\Taboo\\Services\\Implements\\LanguageServices.cs*",
               "RelativeToolTip": "Taboo\\Services\\Implements\\LanguageServices.cs*",
-              "ViewState": "AgIAABgAAAAAAAAAAAArwCEAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T15:11:41.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ILanguageServices.cs",
-              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Services\\Abstracts\\ILanguageServices.cs",
+              "DocumentMoniker": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\Taboo\\Services\\Abstracts\\ILanguageServices.cs",
               "RelativeDocumentMoniker": "Taboo\\Services\\Abstracts\\ILanguageServices.cs",
-              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Services\\Abstracts\\ILanguageServices.cs",
+              "ToolTip": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\Taboo\\Services\\Abstracts\\ILanguageServices.cs",
               "RelativeToolTip": "Taboo\\Services\\Abstracts\\ILanguageServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -90,12 +141,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "LanguagesController.cs",
-              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Controllers\\LanguagesController.cs",
+              "DocumentMoniker": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\Taboo\\Controllers\\LanguagesController.cs",
               "RelativeDocumentMoniker": "Taboo\\Controllers\\LanguagesController.cs",
-              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Controllers\\LanguagesController.cs*",
-              "RelativeToolTip": "Taboo\\Controllers\\LanguagesController.cs*",
+              "ToolTip": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\Taboo\\Controllers\\LanguagesController.cs",
+              "RelativeToolTip": "Taboo\\Controllers\\LanguagesController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAArwCQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T14:08:10.197Z",
@@ -103,16 +154,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\Taboo\\Program.cs",
               "RelativeDocumentMoniker": "Taboo\\Program.cs",
-              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Program.cs",
+              "ToolTip": "C:\\Users\\I Novbe\\Desktop\\Tab\\Taboo-API\\Taboo\\Taboo\\Program.cs",
               "RelativeToolTip": "Taboo\\Program.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T13:39:50.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T13:39:50.941Z"
             }
           ]
         }
