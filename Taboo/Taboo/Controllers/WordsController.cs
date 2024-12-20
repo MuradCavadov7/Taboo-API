@@ -46,7 +46,7 @@ public class WordsController(IWordService _service) : ControllerBase
         }
 
     }
-    [HttpDelete("{Id}")]
+    [HttpDelete("id")]
     public async Task<IActionResult> Delete(int id)
     {
         try
@@ -75,7 +75,7 @@ public class WordsController(IWordService _service) : ControllerBase
         }
 
     }
-    [HttpPut("{id}")]
+    [HttpPut("id")]
     public async Task<IActionResult> Update(int id, WordUpdateDto dto)
     {
         try

@@ -106,29 +106,8 @@
   },
   {
     "ContainingType": "Taboo.Controllers.WordsController",
-    "Method": "Update",
-    "RelativePath": "api/Words/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "dto",
-        "Type": "Taboo.DTOs.Words.WordUpdateDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Taboo.Controllers.WordsController",
     "Method": "Delete",
-    "RelativePath": "api/Words/{Id}",
+    "RelativePath": "api/Words/id",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -136,6 +115,27 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Taboo.Controllers.WordsController",
+    "Method": "Update",
+    "RelativePath": "api/Words/id",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "dto",
+        "Type": "Taboo.DTOs.Words.WordUpdateDto",
         "IsRequired": true
       }
     ],
