@@ -9,6 +9,8 @@ namespace Taboo
         {
             services.AddScoped<ILanguageServices, LanguageServices>();
             services.AddScoped<IWordService, WordService>();
+            services.AddScoped<IGameService, GameService>();
+            services.AddMemoryCache();
             return services;
         }
 

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Taboo.Migrations
 {
     /// <inheritdoc />
-    public partial class CreatedWordGameBannedWordsTables : Migration
+    public partial class ChangeIntToGuid : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -17,8 +17,7 @@ namespace Taboo.Migrations
                 name: "Games",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     BannedWordCount = table.Column<int>(type: "int", nullable: false),
                     FailCount = table.Column<int>(type: "int", nullable: false),
                     SkipCount = table.Column<int>(type: "int", nullable: false),

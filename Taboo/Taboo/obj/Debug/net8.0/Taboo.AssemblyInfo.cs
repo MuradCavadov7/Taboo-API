@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Taboo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbc0f2267c93e91005a1dfe364afb5100fa0c813")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+354687e6a1d09268eef8eab1a1a49093a86bc72c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Taboo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Taboo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
