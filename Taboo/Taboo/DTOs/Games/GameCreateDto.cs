@@ -8,5 +8,6 @@ namespace Taboo.DTOs.Games
         public int FailCount { get; set; }
         public int SkipCount { get; set; }
         public int Seconds { get; set; }
+        public string LanguageCode {  get; set; }
     }
 }

@@ -38,5 +38,34 @@ namespace Taboo.Controllers
                 }
             }
         }
-    }
+            [HttpPost("Start/{id}")]
+            public async Task<IActionResult> Start(Guid id)
+            {
+                try
+                {
+                    await _service.StartAsync(id);
+                    return Created();
+                }
+                catch (Exception ex)
+                {
+                    if (ex is IBaseException ibe)
+                    {
+                        return StatusCode(ibe.StatusCode, new
+                        {
+                            StatusCode = ibe.StatusCode,
+                            Message = ibe.ErrorMessage
+                        });
+                    }
+                    else
+                    {
+                        return BadRequest(new
+                        {
+                            StatusCode = StatusCodes.Status400BadRequest,
+                            Message = ex.Message
+                        });
+                    }
+                }
+            }
+        
+    } 
 }

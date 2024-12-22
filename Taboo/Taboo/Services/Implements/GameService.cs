@@ -11,7 +11,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Taboo.Services.Implements
 {
-    public class GameService(TabooDbContext _context, IMapper _mapper,IMemoryCache _cache) : IGameService
+    public class GameService(TabooDbContext _context, IMapper _mapper, IMemoryCache _cache) : IGameService
     {
         public async Task<Guid> AddAsync(GameCreateDto dto)
         {
@@ -21,6 +21,7 @@ namespace Taboo.Services.Implements
             return entity.Id;
         }
 
+
         public async Task StartAsync(Guid id)
         {
             var entity = await _context.Games.FindAsync(id);
@@ -29,6 +30,16 @@ namespace Taboo.Services.Implements
             {
                 throw new GameAlreadyFinishedException();
             }
+            entity.SkipCount = 0;
+            entity.SuccessAnswer = 0;
+            entity.WrongAnswer = 0;
+            _cache.Set(new
+            {
+                entity.SkipCount,
+                entity.WrongAnswer,
+                entity.SuccessAnswer
+            },
+            DateTimeOffset.Now.AddMinutes(1));
         }
 
     }
