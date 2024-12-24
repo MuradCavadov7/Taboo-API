@@ -13,59 +13,29 @@ namespace Taboo.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(GameCreateDto dto)
         {
-            try
-            {
-                await _service.AddAsync(dto);
-                return Created();
-            }
-            catch (Exception ex)
-            {
-                if (ex is IBaseException ibe)
-                {
-                    return StatusCode(ibe.StatusCode, new
-                    {
-                        StatusCode = ibe.StatusCode,
-                        Message = ibe.ErrorMessage
-                    });
-                }
-                else
-                {
-                    return BadRequest(new
-                    {
-                        StatusCode = StatusCodes.Status400BadRequest,
-                        Message = ex.Message
-                    });
-                }
-            }
+            await _service.AddAsync(dto);
+            return Created();
+
         }
-            [HttpPost("Start/{id}")]
-            public async Task<IActionResult> Start(Guid id)
-            {
-                try
-                {
-                    await _service.StartAsync(id);
-                    return Created();
-                }
-                catch (Exception ex)
-                {
-                    if (ex is IBaseException ibe)
-                    {
-                        return StatusCode(ibe.StatusCode, new
-                        {
-                            StatusCode = ibe.StatusCode,
-                            Message = ibe.ErrorMessage
-                        });
-                    }
-                    else
-                    {
-                        return BadRequest(new
-                        {
-                            StatusCode = StatusCodes.Status400BadRequest,
-                            Message = ex.Message
-                        });
-                    }
-                }
-            }
-        
-    } 
+        [HttpPost("[action]/{id}")]
+        public async Task<IActionResult> Start(Guid id)
+        {
+            return Ok(await _service.StartAsync(id));
+        }
+        [HttpPost("[action]/{id}")]
+        public async Task<IActionResult> Success(Guid id)
+        {
+            return Ok(await _service.SuccessAsync(id));
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetGameData(Guid id)
+        {
+            return Ok(await _service.GetCurrentStatus(id));
+        }
+        public async Task<IActionResult> EndGame(Guid id)
+        {
+            return Ok(await _service.EndAsync(id));
+        }
+
+    }
 }

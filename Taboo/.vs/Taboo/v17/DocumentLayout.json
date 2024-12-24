@@ -3,48 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\dtos\\games\\gamecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\dtos\\games\\gamecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\services\\implements\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\services\\implements\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\services\\abstracts\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\services\\abstracts\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\controllers\\wordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\controllers\\wordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\externalservices\\implements\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\externalservices\\implements\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\dtos\\games\\gamestatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\dtos\\games\\gamestatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\externalservices\\abstracts\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\externalservices\\abstracts\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\entities\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\entities\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\services\\implements\\languageservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\services\\implements\\languageservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\profiles\\gameprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\profiles\\gameprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\enums\\gamelevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\enums\\gamelevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|c:\\users\\99477\\desktop\\taboo\\taboo\\taboo\\externalservices\\implements\\localcacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD2D557-AF0E-4CE0-A61B-C9C7B5AE91C5}|Taboo\\Taboo.csproj|solutionrelative:taboo\\externalservices\\implements\\localcacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,103 +42,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WordsController.cs",
-              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Controllers\\WordsController.cs",
-              "RelativeDocumentMoniker": "Taboo\\Controllers\\WordsController.cs",
-              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Controllers\\WordsController.cs",
-              "RelativeToolTip": "Taboo\\Controllers\\WordsController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwC0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T22:09:45.676Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GamesController.cs",
               "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Controllers\\GamesController.cs",
               "RelativeDocumentMoniker": "Taboo\\Controllers\\GamesController.cs",
               "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Controllers\\GamesController.cs",
               "RelativeToolTip": "Taboo\\Controllers\\GamesController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAuwC0AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T22:08:39.419Z"
+              "WhenOpened": "2024-12-24T17:59:37.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LocalCacheService.cs",
+              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\ExternalServices\\Implements\\LocalCacheService.cs",
+              "RelativeDocumentMoniker": "Taboo\\ExternalServices\\Implements\\LocalCacheService.cs",
+              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\ExternalServices\\Implements\\LocalCacheService.cs",
+              "RelativeToolTip": "Taboo\\ExternalServices\\Implements\\LocalCacheService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T17:47:08.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICacheService.cs",
+              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\ExternalServices\\Abstracts\\ICacheService.cs",
+              "RelativeDocumentMoniker": "Taboo\\ExternalServices\\Abstracts\\ICacheService.cs",
+              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\ExternalServices\\Abstracts\\ICacheService.cs",
+              "RelativeToolTip": "Taboo\\ExternalServices\\Abstracts\\ICacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T17:45:23.925Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Taboo\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\ServiceRegistration.cs",
-              "RelativeToolTip": "Taboo\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Title": "GameStatusDto.cs",
+              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\DTOs\\Games\\GameStatusDto.cs",
+              "RelativeDocumentMoniker": "Taboo\\DTOs\\Games\\GameStatusDto.cs",
+              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\DTOs\\Games\\GameStatusDto.cs",
+              "RelativeToolTip": "Taboo\\DTOs\\Games\\GameStatusDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T22:01:36.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LanguageServices.cs",
-              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Services\\Implements\\LanguageServices.cs",
-              "RelativeDocumentMoniker": "Taboo\\Services\\Implements\\LanguageServices.cs",
-              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Services\\Implements\\LanguageServices.cs",
-              "RelativeToolTip": "Taboo\\Services\\Implements\\LanguageServices.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T21:15:09.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GameProfile.cs",
-              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Profiles\\GameProfile.cs",
-              "RelativeDocumentMoniker": "Taboo\\Profiles\\GameProfile.cs",
-              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Profiles\\GameProfile.cs",
-              "RelativeToolTip": "Taboo\\Profiles\\GameProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T20:40:06.574Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GameLevel.cs",
-              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Enums\\GameLevel.cs",
-              "RelativeDocumentMoniker": "Taboo\\Enums\\GameLevel.cs",
-              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Enums\\GameLevel.cs",
-              "RelativeToolTip": "Taboo\\Enums\\GameLevel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T20:18:26.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\DTOs\\Games\\GameCreateDto.cs",
-              "RelativeDocumentMoniker": "Taboo\\DTOs\\Games\\GameCreateDto.cs",
-              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\DTOs\\Games\\GameCreateDto.cs",
-              "RelativeToolTip": "Taboo\\DTOs\\Games\\GameCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T20:13:21.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameService.cs",
-              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Services\\Implements\\GameService.cs",
-              "RelativeDocumentMoniker": "Taboo\\Services\\Implements\\GameService.cs",
-              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Services\\Implements\\GameService.cs",
-              "RelativeToolTip": "Taboo\\Services\\Implements\\GameService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T20:12:55.196Z"
+              "WhenOpened": "2024-12-24T16:16:31.39Z"
             },
             {
               "$type": "Document",
@@ -160,33 +100,46 @@
               "RelativeDocumentMoniker": "Taboo\\Services\\Abstracts\\IGameService.cs",
               "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Services\\Abstracts\\IGameService.cs",
               "RelativeToolTip": "Taboo\\Services\\Abstracts\\IGameService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T20:12:43.467Z"
+              "WhenOpened": "2024-12-24T15:51:27.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Entities\\Game.cs",
-              "RelativeDocumentMoniker": "Taboo\\Entities\\Game.cs",
-              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Entities\\Game.cs",
-              "RelativeToolTip": "Taboo\\Entities\\Game.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAcAAAArAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Services\\Implements\\GameService.cs",
+              "RelativeDocumentMoniker": "Taboo\\Services\\Implements\\GameService.cs",
+              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Services\\Implements\\GameService.cs",
+              "RelativeToolTip": "Taboo\\Services\\Implements\\GameService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwCAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T14:43:04.312Z"
+              "WhenOpened": "2024-12-21T20:12:55.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Program.cs",
               "RelativeDocumentMoniker": "Taboo\\Program.cs",
               "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\Program.cs",
               "RelativeToolTip": "Taboo\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwCoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T13:39:50.941Z"
+              "WhenOpened": "2024-12-18T13:39:50.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RedisService.cs",
+              "DocumentMoniker": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\ExternalServices\\Implements\\RedisService.cs",
+              "RelativeDocumentMoniker": "Taboo\\ExternalServices\\Implements\\RedisService.cs",
+              "ToolTip": "C:\\Users\\99477\\Desktop\\Taboo\\Taboo\\Taboo\\ExternalServices\\Implements\\RedisService.cs",
+              "RelativeToolTip": "Taboo\\ExternalServices\\Implements\\RedisService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwBIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T17:47:45.611Z"
             }
           ]
         }
