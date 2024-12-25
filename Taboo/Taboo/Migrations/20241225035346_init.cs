@@ -8,22 +8,34 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Taboo.Migrations
 {
     /// <inheritdoc />
-    public partial class CreatedWordGameBannedWordsTables : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
+                name: "Languages",
+                columns: table => new
+                {
+                    Code = table.Column<string>(type: "nvarchar(2)", maxLength: 2, nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(64)", maxLength: 64, nullable: false),
+                    Icon = table.Column<string>(type: "nvarchar(128)", maxLength: 128, nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Languages", x => x.Code);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Games",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     BannedWordCount = table.Column<int>(type: "int", nullable: false),
                     FailCount = table.Column<int>(type: "int", nullable: false),
                     SkipCount = table.Column<int>(type: "int", nullable: false),
                     Time = table.Column<TimeSpan>(type: "time", nullable: false),
-                    Score = table.Column<int>(type: "int", nullable: false),
+                    Score = table.Column<int>(type: "int", nullable: true),
                     SuccessAnswer = table.Column<int>(type: "int", nullable: false),
                     WrongAnswer = table.Column<int>(type: "int", nullable: false),
                     LanguageCode = table.Column<string>(type: "nvarchar(2)", nullable: false)
@@ -90,12 +102,6 @@ namespace Taboo.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Languages_Name",
-                table: "Languages",
-                column: "Name",
-                unique: true);
-
-            migrationBuilder.CreateIndex(
                 name: "IX_BannedWords_WordId",
                 table: "BannedWords",
                 column: "WordId");
@@ -104,6 +110,12 @@ namespace Taboo.Migrations
                 name: "IX_Games_LanguageCode",
                 table: "Games",
                 column: "LanguageCode");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Languages_Name",
+                table: "Languages",
+                column: "Name",
+                unique: true);
 
             migrationBuilder.CreateIndex(
                 name: "IX_Words_LanguageCode",
@@ -123,24 +135,8 @@ namespace Taboo.Migrations
             migrationBuilder.DropTable(
                 name: "Words");
 
-            migrationBuilder.DropIndex(
-                name: "IX_Languages_Name",
-                table: "Languages");
-
-            migrationBuilder.DeleteData(
-                table: "Languages",
-                keyColumn: "Code",
-                keyValue: "AZ");
-
-            migrationBuilder.DeleteData(
-                table: "Languages",
-                keyColumn: "Code",
-                keyValue: "EN");
-
-            migrationBuilder.DeleteData(
-                table: "Languages",
-                keyColumn: "Code",
-                keyValue: "RU");
+            migrationBuilder.DropTable(
+                name: "Languages");
         }
     }
 }

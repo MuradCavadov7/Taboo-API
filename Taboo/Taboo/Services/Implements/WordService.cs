@@ -17,7 +17,6 @@ namespace Taboo.Services.Implements
 
             if (await _context.Words.AnyAsync(x => x.LanguageCode == dto.LanguageCode && x.Text == dto.Text))
                 throw new WordExistException();
-            if(dto.BannedWords.Count() != 3) throw new InvalidBannedWordCountException();
 
             var word = _mapper.Map<Word>(dto);
             //word.BannedWords = dto.BannedWords.Select(bw => new BannedWord { Text = bw }).ToList();
@@ -39,21 +38,16 @@ namespace Taboo.Services.Implements
             return _mapper.Map<IEnumerable<WordGetDto>>(word);
         }
 
-        public Task<Language> GetWordByIdAsync(int id)
+        public async Task<Word> GetWordByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            var data = await _getById(id);
+            return data;
         }
 
         public async Task UpdateAsync(int id, WordUpdateDto dto)
         {
             var entity = await _getById(id);
             _mapper.Map(dto, entity);
-            if (dto.BannedWords != null)
-            {
-                entity.BannedWords = dto.BannedWords
-                    .Select(bw => new BannedWord { Text = bw })
-                    .ToList();
-            }
             _context.Words.Update(entity);
             await _context.SaveChangesAsync();
         }

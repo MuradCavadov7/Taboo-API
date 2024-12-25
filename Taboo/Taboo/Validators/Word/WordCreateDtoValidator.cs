@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using Taboo.DTOs.Words;
+using Taboo.Enums;
 
 namespace Taboo.Validators.Word
 {
@@ -23,6 +24,8 @@ namespace Taboo.Validators.Word
                 .NotNull()
                 .NotEmpty()
                 .WithMessage("Words in the forbidden words cannot be empty")
+                .Must(x=>x.Count()==(int)GameLevel.Hard)
+                .WithMessage($"Forbidden word must be {(int)GameLevel.Hard} words")
                 .MaximumLength(32)
                 .WithMessage("The length of words in the banned words cannot be greater than 32");
                 

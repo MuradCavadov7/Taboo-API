@@ -47,11 +47,9 @@ namespace Taboo.Migrations
 
             modelBuilder.Entity("Taboo.Entities.Game", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("BannedWordCount")
                         .HasColumnType("int");
@@ -63,7 +61,7 @@ namespace Taboo.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(2)");
 
-                    b.Property<int>("Score")
+                    b.Property<int?>("Score")
                         .HasColumnType("int");
 
                     b.Property<int>("SkipCount")

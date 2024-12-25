@@ -7,7 +7,7 @@
         public string ErrorMessage { get; }
         public InvalidBannedWordCountException()
         {
-            ErrorMessage = "Banned words count must be equal 5";
+            ErrorMessage = "The number of banned words is limited";
         }
 
         public InvalidBannedWordCountException(string? message) : base(message)
